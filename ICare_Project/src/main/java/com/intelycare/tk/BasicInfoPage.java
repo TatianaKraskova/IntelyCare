@@ -17,7 +17,7 @@ public class BasicInfoPage extends PageObject {
     @FindBy(name = "mobile")
     private WebElement mobileNumber;
 
-    //@FindBy(xpath = "//*[contains(text(),'Zip Code')]") test keeps fails
+    //@FindBy(xpath = "//*[contains(text(),'Zip Code')]") test keeps failing 
     @FindBy(id = "input_5")
     private WebElement zipCode;
 
